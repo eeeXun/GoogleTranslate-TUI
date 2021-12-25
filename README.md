@@ -14,7 +14,10 @@ It use Google Translate's API(free), so it may not work when you send too many r
 - Install packages
     - `pip install -r requirements.txt`
 
-- Change Language Settings: `vim config.json`
+- Install program (⚠️Make sure your `~/.local/bin` is under the `$PATH`)
+    - `make install`
+
+- Change Language Settings: `vim ~/.config/pylate/config.json`
     - You can find Language Code in [ISO-639-1](https://en.wikipedia.org/wiki/ISO_639-1) or [Google Support](https://cloud.google.com/translate/docs/languages) or `LanguageCode.csv`
     ```
         {
@@ -24,7 +27,7 @@ It use Google Translate's API(free), so it may not work when you send too many r
     ```
 
 - Start
-    - `python main.py`
+    - `pylate`
 
 ## Controls
 - General
